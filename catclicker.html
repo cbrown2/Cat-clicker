@@ -5,17 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cat Clicker</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">    
 </head>
 <body>
-   <!--first cat Cat-->
-    <img class="pointer" id="catimg" src="cat.jpg" alt="Cat">;
-   <h3>Clicks:<span id="catCounter"></span></h3>
-   
-   <!--second cat Ben-->
-   <img class="pointer" id="benimg" src="ben.jpg" alt="Ben">;
+    <div class= "container-fluid">
+        <div class="row">
+            <div class="col-6">
+            <!--first cat Cat-->
+            <img class="pointer" id="catimg" src="cat.jpg" alt="Cat">;
+            <h3>Clicks:<span id="catCounter"></span></h3>
+    </div>
+     
+        <!--second cat Ben--> 
+    <div class="col-6">
+     <img class="pointer" id="benimg" src="ben.jpg" alt="Ben">;
    <h3>Clicks:<span id="benCounter"></span></h3>
-    <script src="main.js"></script>
-   <div>
+        </div>
+   </div>
+</div>
+   <script src="main.js"></script>
+  
 </body>
 </html>
